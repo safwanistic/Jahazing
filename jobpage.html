@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job page</title>
+    <link rel="stylesheet" href="../css/join_us_style2.css">
+
+    <script type="text/javascript">
+        function function_name() {
+            alert("We will contanct you soon.   Thank you!!!");
+        }
+    </script>
+</head>
+
+<body>
+    <iframe src="header.html" class="header" height="250px" width="100%" style="border:hidden">
+    </iframe>
+
+    <div class=" two">
+        <h2>
+            JOBS:
+        </h2>
+
+        <form class="three">
+            <Span id="field1">
+
+                <span id="name1">
+                    <label for="name"> Enter your name:</label>
+                    <input type="text" placeholder="Enter your name" id="name" required>
+                </span><br><br>
+
+                <span id="email">
+                    <label for="email">Email address:</label>
+                    <input type="email" name="email" id="email2" placeholder="Enter your email address" required>
+                </span><br><br>
+
+                <span id="fieldselect">
+
+                </span> <label for="field">Select field:</label>
+                <select name="field" id="field" required>
+                    <option value="">Please select the field</option>
+                    <option value="crew">Cabin crew</option>
+                    <option value="fa">Finance and administration</option>
+                    <option value="eng">Engineering</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="pilot">Pilot</option>
+                    <option value="a&ao">Airline and airport operations</option>
+                </select>
+            </Span><br><br>
+
+
+            <span id="city1">
+                <label for="city">Select city:</label>
+                <select name="city" id="city" required>
+                    <option value="">Select city</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="peshawar">Peshawar</option>
+                    <option value="faislabad">Faislabad</option>
+                </select>
+            </span><br><br>
+
+
+
+            <span id="file">
+                <label for="myfile">Upload your CV:</label>
+                <input type="file" id="myfile" name="myfile" required>
+            </span><br><br>
+
+
+            <button class="bton">Submit</button>
+        </form>
+        <div class="interview">
+            <img src="../images/pictures/suits.jpg" alt="interview">
+        </div>
+    </div>
+
+    <button class="button2" onclick="function_name()">Exit</button>
+
+</body>
+
+</html>

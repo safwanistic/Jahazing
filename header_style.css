@@ -1,0 +1,54 @@
+body
+{
+    border: 0px;
+    margin: 0px;
+}
+.box
+{ 
+	width:100%;
+	float: right;
+	background-color:black;
+    height: 200px;
+}
+.box ul li
+{
+	margin:10px;
+	display: inline-block;
+	text-align: center;
+	position:relative;
+	top: 90px;
+	left: 60%;
+}
+.box ul li a{ 
+	text-decoration: none;
+	color:white;
+}
+
+.box ul li:hover{
+	height:25px;
+	background-color: yellow;
+}
+.box ul li a:hover{ 
+	color:black;
+}
+#logo{
+	width:10%;
+	position:absolute;
+	top:18px;
+	left:20px;
+    float: left;
+}
+#header_title
+{
+    font-family: "Garamond";
+    color: azure;
+    position:absolute;
+    padding-left: 36%;
+    font-size: 50px;
+}
+
+#JZtag{
+	position:absolute;
+	left:44%;
+    color: yellow;
+}

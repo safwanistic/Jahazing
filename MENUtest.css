@@ -1,0 +1,338 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	background:none;
+}
+
+body{
+	font-family:latha;
+	color:white;
+	background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)
+	)
+	
+,url(../images/foodimages/breakfast.jpg)no-repeat;
+	overflow-x:hidden;
+	background-size: 100% 100%;
+	background-attachment: fixed; 
+
+}
+
+
+
+
+
+.wd{
+	width:300px;
+	float:left;
+	height:539px;
+	 background-color:rgba(0,2,2,.5);
+	padding:55px; 
+	margin-top:252px;
+}
+
+.wd{
+	display:inline-block;
+	position:relative;
+	top:-625px;
+	height:468px;
+}
+
+
+.wd h1{
+	text-align:center;
+	text-transform: uppercase;
+	font-weight:100px;
+}
+
+.wd h4{
+	text-align: justify;
+	color:darkgray;
+	font-weight: normal;
+	font-size:20px;
+	padding:10px;
+}
+#chef_pic{
+	width:200px;
+	height:200px;
+	position:relative;
+	left:50px;
+	border:2px solid black;
+	box-shadow:5px 5px 5px white;
+}
+
+#chef_name{
+	position:relative;
+	left:57px;
+	top:10px;
+	font-size:20px;
+	font-family:Georgia;
+	text-shadow:blue 2px 0 10px;
+}
+#terms{
+	position:relative;
+	left:22px;
+	opacity:0.6;
+}
+
+
+.service{
+	width:50%;
+	margin-left:20px;
+	margin-top:700px;
+	font-weight:bold;
+	text-align:center;
+}
+#service_para{
+	text-align:center;
+	float:left;
+	margin-top:-300px;
+	font-size:20px;
+	font-family:Georgia;
+	text-align:justify;
+	color:#F7EED2;
+}
+.service_heading{
+	position:relative;
+	top:-380px;
+	left:45%;
+	font-size:72px;
+	font-family:Lucida Handwriting;
+	color:white;
+	text-shadow:RED 3px 0 10px;
+	
+}
+.video_container{
+	width:50%;
+	position:relative;
+	left:750px;
+	top:-300px;
+	
+}
+.videoo{
+	border:3px solid #DE3A3A;
+	transition:1s;
+}
+.videoo:hover{
+	position:relative;
+	top:-10px;
+	text-shadow:blue 2px 0 10px;
+		
+}
+
+form, input[type="button"]:hover{background-color:darkgray;}
+
+
+
+
+
+.menu
+{
+	position:relative;
+	top:200px;
+	left:31%; 
+	background-color:none;
+	width: 70%;
+	height: 550px;
+}
+.F
+{
+	background-color: rgba(0,2,2,.5);
+	width: 100%;
+	height: 33%;
+	
+}
+.D
+{
+	background-color:rgba(0,2,2,.5) ;
+	width: 100%;
+	height: 33%;
+}
+.I
+{
+	background-color: rgba(0,2,2,.5);
+	width: 100%;
+	height: 39%;
+}
+
+
+
+
+
+.flex-container1, .flex-container2, .flex-container3
+{
+	margin-top: 7px;
+	float: left;
+	display: flex;
+	
+	
+}
+.flex-container1
+{
+	margin-left: 170px;
+}
+.flex-container2
+{
+	margin-left: 10px;
+}
+.flex-container3
+{
+	margin-left: 10px;
+}
+.img1-wrap 
+{
+    position: relative;
+	
+}
+.image11
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image12
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+	
+
+}
+.image13
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image21
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image22
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image23
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image31
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image32
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+.image33
+{
+	float: left;
+	width: 250px;
+	display: block;
+	height: 185px;
+	margin-top:-1px;
+}
+#cuisine{
+	position:relative;
+	top:50px;
+	left:40%;
+	font-size:72px;
+	font-family:Lucida Handwriting;
+	color:white;
+	text-shadow:RED 3px 0 10px;
+	
+	
+}
+#cuisine_name1{
+	position:absolute;
+	left:32%;
+	top:650px;
+	font-family:Lucida Handwriting;
+	font-size:20px;
+	
+}
+#cuisine_name2{
+	position:absolute;
+	left:32%;
+	top:825px;
+	font-family:Lucida Handwriting;
+	font-size:20px;
+}
+#cuisine_name3{
+	position:absolute;
+	left:32%;
+	top:1000px;
+	font-family:Lucida Handwriting;
+	font-size:20px;
+}
+.overlay 
+{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: teal;
+	opacity: 0.8;
+	overflow: hidden;
+	height: 0%;
+	transition: .7s ease;
+}
+.img1-wrap:hover .overlay 
+{
+	height: 40%;
+}
+#order
+{
+	position:relative;
+	left:-600px;
+	top:50%;
+	
+}
+#butt
+{
+	position:relative;
+	left:22%;
+	top:50px;
+	background-color:white;
+	color:black;
+	height:50px;
+	width:70%;
+	opacity:0.8;
+	border:1px solid black;
+	border-radius:30px;
+	font-family:Times New Roman;
+	font-size:x-large;
+}
+#butt:hover{
+	background-color:maroon;
+	color:white;
+	opacity:1;
+}
+	

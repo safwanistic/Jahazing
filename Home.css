@@ -1,0 +1,357 @@
+*
+{
+padding: 0px;
+margin: 0px;
+}
+.zoom
+{
+	zoom: 80%;
+}
+body
+{
+	background-color: #CCD9F0;
+}
+
+.header
+{
+	border:none;
+    overflow: auto;
+}
+
+
+/*COVID MAP CSS*/
+.covid_info
+{
+  top: 10px;
+  margin: auto;
+  background-color: #F0F3F4;
+  border-radius: 25px;
+  background-repeat: repeat;
+  width: 1200px;
+  height: 330px;
+  position: relative;
+}
+.covid_text
+{
+  margin-top: 30px;
+  width: 40%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.covid_map
+{
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+.restriction
+{
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+.low, .moderate, .Major, .unkown {
+  text-align: center;
+  height: 20px;
+  width: 70px;
+}
+.low {
+	background-color: #00a698;
+}
+.moderate {
+	background-color: #ff9400;
+}
+.Major {
+	background-color: #d1435b;
+}
+.unkown {
+	background-color: #b2b2bf;
+}
+
+
+/*SLIDE CSS*/
+.slide
+{
+	margin-top: 40px;
+}
+.form
+{
+	left: 350px;
+	top: 980px;
+	border-radius: 25px;
+	position: absolute;
+}
+.links
+{
+	width: 100%
+	height: 50px;
+	background-color: aqua;
+}
+.jahazing_booking_form
+{
+	word-spacing: 15px
+}
+.table
+{
+	background-color: rgba(0,2,2,.5);
+	width: 780px;
+	color: white;
+	font-weight: bold;
+	border-radius: 50% 20% / 10% 40%;;
+	margin-top: 100px;
+	padding: 15px 1px;
+}
+.jahazing_booking_form_c1
+{
+	float: left;
+	margin-left: 6px;
+}
+.jahazing_booking_form_c2
+{
+	float: right;
+	margin-right: 0px;
+}
+.Ticket_Type
+{
+
+}
+.date1
+{
+	word-spacing: 10px;
+	float: left;
+	margin-left: 110px;
+}
+.date2
+{
+	padding: 0 7px 0 7px;
+	float: right;
+	word-spacing: 10px;
+	margin-right: 120px;
+}
+
+
+
+
+
+/*FLIP BOX CSS*/
+
+.flip-box
+{
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+#flip1
+{
+  float: left;
+  margin-left: 370px;
+}
+#flip2
+{
+  float: right;
+  margin-right:400px; 
+}
+#flip3
+{
+  margin-top: 10px;
+  float: left;
+  margin-left: 370px;
+}
+#flip4
+{
+  margin-top: 10px;
+  float: right;
+  margin-right:400px; 
+}
+.flip-box-inner
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner
+{
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back
+{
+  transform: rotateX(180deg);
+}
+
+/*DEAL CSS*/
+
+.deals2
+{
+	width: 71%;
+	height: 550px;
+	margin-left:235px;
+    margin-top: 600px;
+	text-align: center;
+}
+.flex-container, .flex-container1
+{
+	margin-left: 14px;
+	float: left;
+	display: flex;
+}
+.flex-container1
+{
+	margin-left: 4px;
+}
+.flex-container2
+{
+	display: flex;
+	float: left;
+	margin-left: 4px;
+}
+.flex-container3
+{
+	margin-left: 14px;
+	display: flex;
+	float: left;
+	margin-top: -229px;
+}
+.flex-container4
+{
+	display: flex;
+	float: left;
+	margin-left: 4px;
+	margin-top: -229px;
+}
+
+.img1-wrap 
+{
+    position: relative;
+}
+
+.image 
+{
+	float: left;
+	width: 500px;
+	display: block;
+	height: 230px;
+}
+.image1
+{
+	float: left;
+	width: 300px;
+	display: block;
+	height: 230px;
+}
+.image2
+{
+	float: left;
+	width: 300px;
+	display: block;
+	height: 465px;
+}
+.image3
+{
+	float: left;
+	width: 300px;
+	display: block;
+	height: 230px;
+}
+.overlay {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #5c0931;
+	opacity: 0.8;
+	overflow: hidden;
+	height: 0%;
+	transition: .7s ease;
+}
+.img1-wrap:hover .overlay 
+{
+	height: 40%;
+}
+.text
+{
+	color: white;
+	white-space: nowrap;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: #181717;
+  opacity: 0.5;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/*Email Css*/
+
+
+.updateform
+{
+  margin-top: 20px;	
+  margin-left: 200px;
+  width: 1200px;
+  height: 330px;
+}
+.updateform_email
+{
+  background-color: #F0F3F4;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.updateform_img
+{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.email_holder
+{
+  border: 1px solid grey;
+  width: 480px;
+  height: 30px;
+}
+.updatebutn
+{
+  background-color: #78DDFF;
+  border: 1px solid grey;
+  cursor:pointer;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}

@@ -1,0 +1,149 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EEEBD9;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+#jz
+{
+    float: left;
+    width: 100px;
+    padding-left: 20px;
+}
+#jahazing
+{
+    font-size: 36px;
+    font-family: inherit;
+    margin-left: 10%;
+}
+#head
+{
+    font-family: "Verdana";
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+#fleet
+{
+    position: relative;
+    padding-left: 160px;
+    padding-bottom: 25px;
+}
+#p1
+{
+    font-family: "Candara";
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#p2
+{
+    font-family: "Candara";
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 23px;
+}
+#superscript
+{
+    font-size: 10px;
+}
+#founder
+{
+
+    transform: scale(150px,190px);
+    float: right;
+    width: 17%;
+    padding-right: 20px;
+    padding-left: 12px;
+    
+}
+
+#fo
+{   
+    float: right;
+    width: 12%;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+#footer
+{
+    padding-top: 10px;
+    float: bottom;
+    width: 100%;
+    background-color: #6EB5C0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#butt
+{
+    background-color: greenyellow;
+    display: inline-block;
+    color: floralwhite;
+    width: 10%;
+    border-radius: 14px;
+}
+#butt:hover
+{
+    background-color: chartreuse;
+}
+#headbutt
+{
+    background-color: #6EB5C0;
+    color: black;
+    display: inline-block;
+    width: 10%;
+    height: 40px;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+    float: right;
+    margin: 10px;
+    border-radius: 14px;
+}
+#table
+{
+    border: 2px solid black;
+    width: 40%;
+    background-color: gainsboro;
+    float: left;
+    margin: 10px;
+    margin-left: 95px;
+    position: relative;
+}
+.img_f
+{
+    border: 0.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+    height: 200px;
+}
+.h_f
+{
+    font-family: "Trebuchet MS";
+    font-size: 35px;
+    color: black;
+}
+.font_table
+{
+    font-family: "Calibri";
+    text-align: center;
+    font-size: 18px;
+}
+#table2
+{
+    border: 2px solid black;
+    width: 40%;
+    background-color: gainsboro;
+    float: right;
+    margin: 10px;
+    height: 35%;
+    margin-right: 95px;
+    position: relative;
+}
+#cards
+{
+    padding: 5px;
+    margin: 5px;
+}
